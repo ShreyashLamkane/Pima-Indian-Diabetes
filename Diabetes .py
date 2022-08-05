@@ -12,7 +12,7 @@ from sklearn.ensemble import AdaBoostClassifier
 # In[2]:
 
 
-dataframe=pandas.read_csv("E:/Placement courses/ML Projects/pima Indian Diabetics/pima-indians-diabetes.csv")
+dataframe=pandas.read_csv("pima-indians-diabetes.csv")
 array=dataframe.values
 X=array[:,0:8]
 Y=array[:,8]
